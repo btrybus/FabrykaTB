@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrykaTB", "FabrykaTB\FabrykaTB.csproj", "{88719FC6-8B8C-42CE-8D45-C76366119B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFabryki", "ModelFabryki\ModelFabryki.csproj", "{958BB080-5D7B-49EE-9DD6-D8B2EB6C9189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrykaAPI", "FabrykaAPI\FabrykaAPI.csproj", "{A39F8CD0-1268-43C3-81A3-EF15ACFB2C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88719FC6-8B8C-42CE-8D45-C76366119B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88719FC6-8B8C-42CE-8D45-C76366119B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88719FC6-8B8C-42CE-8D45-C76366119B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88719FC6-8B8C-42CE-8D45-C76366119B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958BB080-5D7B-49EE-9DD6-D8B2EB6C9189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958BB080-5D7B-49EE-9DD6-D8B2EB6C9189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958BB080-5D7B-49EE-9DD6-D8B2EB6C9189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958BB080-5D7B-49EE-9DD6-D8B2EB6C9189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39F8CD0-1268-43C3-81A3-EF15ACFB2C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39F8CD0-1268-43C3-81A3-EF15ACFB2C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39F8CD0-1268-43C3-81A3-EF15ACFB2C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39F8CD0-1268-43C3-81A3-EF15ACFB2C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

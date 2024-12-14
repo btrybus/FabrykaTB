@@ -1,0 +1,29 @@
+@FabrykaAPI_HostAddress = https://localhost:7235
+
+GET {{FabrykaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{FabrykaAPI_HostAddress}}/maszyna
+
+###
+
+@id=1
+GET {{FabrykaAPI_HostAddress}}/maszyna/{{id}}
+
+###
+
+POST {{FabrykaAPI_HostAddress}}/maszyna
+Content-Type: application/json
+
+{
+  "id": 0,
+  "nazwa": "Drukarka 4D",
+  "dataUruchomienia": "2024-12-14T16:51:00",
+  "halaId": 2,
+  "hala": null,
+  "operatorzy": null
+}
+
+###
